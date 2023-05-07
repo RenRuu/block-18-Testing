@@ -8,8 +8,22 @@ integration, functional, and acceptance test. Be sure to label each test with it
 associated type (Unit, Integration, Functional, Acceptance).  
 */
 
-// Unit
+// Unit (meaning "Checks the functionality of an individual unit of code.")
+// - Test button function / does it press correctly?
+// - Check panel for any physical damage 
+// - Open panel to observe any physical damage to internal wiring / components
 
-// Integration 
-// Functional
-// Acceptance
+// Integration (meaning "Combining individual modules and testing them as they work together")
+// - Press each button to test if it triggers assigned action ex) press open door button = doors open
+// - Test if emergency button stops the elevator 
+
+// Functional (meaning "User scenarios on the browser itself by controlling the browser programmatically (e2e)")
+/* - Enter elevator > 
+        inspect panel of physical damage > 
+        test each button function registers correctly >
+        open panel to inspect wire quality >
+        if everything passes > close panel and remove from defect list
+*/ 
+
+// Acceptance (meaning "Application meets the identified requirements ")
+// - 
